@@ -1,0 +1,2 @@
+-keep class com.google.android.gms.ads.** { *; }
+-keepclassmembers class * extends androidx.room.RoomDatabase { *; }

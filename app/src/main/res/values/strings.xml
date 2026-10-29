@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BrainVault</string>
+    <string name="tagline">Train your brain. Offline.</string>
+
+    <!-- Common -->
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="home">Home</string>
+    <string name="start">Start</string>
+    <string name="completed">Completed</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="restart">Restart</string>
+    <string name="replay">Play again</string>
+    <string name="next_level">Next level</string>
+    <string name="paused">Paused</string>
+    <string name="leave">Leave</string>
+    <string name="keep_playing">Keep playing</string>
+    <string name="leave_title">Leave this round?</string>
+    <string name="leave_message">Your progress in this round will be lost and no rewards will be given.</string>
+    <string name="restart_title">Restart this level?</string>
+    <string name="restart_message">The board is reshuffled and this attempt is discarded.</string>
+    <string name="coins_cd">%1$d coins</string>
+    <string name="level_fmt">Level %1$d</string>
+    <string name="xp_fmt">%1$d / %2$d XP</string>
+    <string name="score_fmt">Score: %1$d</string>
+    <string name="best_fmt">Best: %1$d</string>
+    <string name="no_score_yet">No score yet</string>
+    <string name="seconds_fmt">%1$.1f s</string>
+    <string name="seconds_int">%1$d s</string>
+    <string name="score">Score</string>
+    <string name="level">Level</string>
+    <string name="time">Time</string>
+    <string name="time_left">Time left</string>
+    <string name="moves">Moves</string>
+    <string name="pairs">Pairs</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="streak">Streak</string>
+    <string name="streak_days">%1$d Day Streak</string>
+    <string name="streak_bonus">Streak Bonus</string>
+    <string name="combo_fmt">%1$dx Combo!</string>
+    <string name="question">Question</string>
+    <string name="length">Length</string>
+    <string name="lives">Lives</string>
+    <string name="correct">Correct</string>
+
+    <!-- Home -->
+    <string name="daily_title">Daily Brain Challenge</string>
+    <string name="daily_desc">Today: %1$s</string>
+    <string name="daily_reward">Bonus reward: %1$d coins</string>
+    <string name="daily_done">Completed — come back tomorrow!</string>
+    <string name="memory_title">Memory Grid</string>
+    <string name="memory_desc">Match pairs of glowing neon glyphs with 3D flip dynamics.</string>
+    <string name="memory_level_fmt">Next: level %1$d</string>
+    <string name="math_title">Quick Math</string>
+    <string name="math_desc">Fast mental calculations with escalating streak combos.</string>
+    <string name="pattern_title">Pattern Lock</string>
+    <string name="pattern_desc">Observe cyber sequence waves and replicate without error.</string>
+    <string name="stats_title">Statistics</string>
+    <string name="achievements_title">Achievements</string>
+    <string name="settings_title">Settings</string>
+    <string name="shop_title">Vault Skins</string>
+    <string name="how_to_play">How to Play</string>
+
+    <!-- Hints & ads -->
+    <string name="hint">Hint</string>
+    <string name="hint_title">Use a hint?</string>
+    <string name="hint_message">A hint costs %1$d coins. Your balance: %2$d coins.</string>
+    <string name="hint_poor">A hint costs %1$d coins but you only have %2$d. You can earn coins by playing, or watch an optional ad.</string>
+    <string name="hint_use">Use hint</string>
+    <string name="hint_not_enough">Not enough coins for a hint. You were not charged.</string>
+    <string name="hint_unavailable">No hint is available right now. You were not charged.</string>
+    <string name="watch_ad">Watch ad: +%1$d coins</string>
+    <string name="ad_unavailable">Ads are not available right now (offline or no ad ready). You can keep playing without ads.</string>
+    <string name="ad_reward_granted">+%1$d coins!</string>
+
+    <!-- Memory -->
+    <string name="memorize">Memorize the cards!</string>
+    <string name="find_pairs">Find the matching pairs</string>
+    <string name="paused_hidden">The board is hidden while paused.</string>
+    <string name="level_complete">Level %1$d complete!</string>
+    <string name="card_hidden">Face-down card</string>
+    <string name="card_shown">%1$s, face up</string>
+    <string name="card_matched">%1$s, matched</string>
+    <string-array name="symbol_names">
+        <item>Circle</item>
+        <item>Triangle</item>
+        <item>Square</item>
+        <item>Diamond</item>
+        <item>Star</item>
+        <item>Cross</item>
+        <item>Heart</item>
+        <item>Moon</item>
+        <item>Sun</item>
+        <item>Club</item>
+        <item>Spade</item>
+        <item>Umbrella</item>
+    </string-array>
+
+    <!-- Math -->
+    <string name="choose_mode">Choose a mode</string>
+    <string name="mode_timed">Timed</string>
+    <string name="mode_timed_d">Answer as many as you can in %1$d seconds.</string>
+    <string name="mode_relaxed">Relaxed practice</string>
+    <string name="mode_relaxed_d">%1$d questions, no timer.</string>
+    <string name="change_mode">Change mode</string>
+    <string name="round_over">Round over</string>
+    <string name="correct_feedback">✓ Correct!</string>
+    <string name="wrong_feedback">✗ Not quite — the answer is %1$d</string>
+    <string name="math_hint">Hint: the operation is %1$s and the answer ends in %2$d.</string>
+    <string name="best_streak">Best streak</string>
+    <string name="avg_response">Average response</string>
+
+    <!-- Pattern -->
+    <string name="get_ready">Get ready…</string>
+    <string name="watch">Watch carefully…</string>
+    <string name="watch_step">Watch: step %1$d of %2$d (%3$s)</string>
+    <string name="your_turn">Your turn: step %1$d of %2$d</string>
+    <string name="round_success">Correct! Next sequence is longer.</string>
+    <string name="round_failure">Not quite! Lives left: %1$d</string>
+    <string name="pattern_resume_note">Resuming replays the current sequence from the start.</string>
+    <string name="tile_lit">%1$s tile, lit</string>
+    <string name="tile_plain">%1$s tile</string>
+    <string name="highest_length">Highest sequence</string>
+
+    <!-- Rewards -->
+    <string name="rewards">Rewards</string>
+    <string name="saving">Saving results…</string>
+    <string name="already_recorded">This round was already recorded. No duplicate rewards.</string>
+    <string name="no_rewards">No rewards this round — try a few more answers next time.</string>
+    <string name="reward_base">Round reward</string>
+    <string name="reward_bonus">Performance bonus</string>
+    <string name="reward_daily">Daily challenge bonus</string>
+    <string name="reward_streak">Daily streak bonus</string>
+    <string name="reward_achievement">Achievement: %1$s</string>
+    <string name="reward_line">+%1$d coins · +%2$d XP</string>
+    <string name="new_best">New personal best!</string>
+    <string name="level_up">Level up! You are now level %1$d.</string>
+
+    <!-- Stats -->
+    <string name="overview">Overview</string>
+    <string name="total_games">Total games</string>
+    <string name="completed_games">Completed games</string>
+    <string name="games_played">Games played</string>
+    <string name="best_score">Best score</string>
+    <string name="highest_level">Highest level</string>
+    <string name="total_moves">Total moves</string>
+    <string name="stats_disclaimer">These are in-game performance statistics only. BrainVault does not measure intelligence or provide any medical or diagnostic result.</string>
+
+    <!-- Achievements -->
+    <string name="unlocked">Unlocked</string>
+    <string name="locked">Locked</string>
+    <string name="ach_reward">Reward: %1$d coins, %2$d XP</string>
+    <string name="ach_first_steps">First Steps</string>
+    <string name="ach_first_steps_d">Complete any game once.</string>
+    <string name="ach_memory_match">Memory Match</string>
+    <string name="ach_memory_match_d">Complete a Memory Grid level.</string>
+    <string name="ach_quick_thinker">Quick Thinker</string>
+    <string name="ach_quick_thinker_d">Finish a Quick Math round with at least 10 answers and 80% accuracy.</string>
+    <string name="ach_pattern_learner">Pattern Learner</string>
+    <string name="ach_pattern_learner_d">Complete a Pattern Lock sequence of length 6.</string>
+    <string name="ach_daily_focus">Daily Focus</string>
+    <string name="ach_daily_focus_d">Complete a Daily Brain Challenge.</string>
+    <string name="ach_personal_best">Personal Best</string>
+    <string name="ach_personal_best_d">Beat your previous best score in any game.</string>
+    <string name="ach_dedicated">Dedicated Player</string>
+    <string name="ach_dedicated_d">Complete 10 games in total.</string>
+    <string name="ach_streak_master">Streak Master</string>
+    <string name="ach_streak_master_d">Maintain a 3-day daily challenge streak.</string>
+    <string name="ach_vault_conqueror">Vault Conqueror</string>
+    <string name="ach_vault_conqueror_d">Complete 25 total games across all vault disciplines.</string>
+
+    <!-- Skins / Customization -->
+    <string name="skin_equipped">Equipped</string>
+    <string name="skin_equip">Equip</string>
+    <string name="skin_buy">Unlock (%1$d Coins)</string>
+    <string name="skin_unlocked_toast">%1$s unlocked!</string>
+    <string name="skin_not_enough_coins">Not enough coins to unlock this skin.</string>
+
+    <!-- Settings / About -->
+    <string name="sound">Sound FX</string>
+    <string name="haptics">Haptic feedback</string>
+    <string name="reduced_motion">Reduced motion</string>
+    <string name="theme">Theme</string>
+    <string name="theme_system">Follow system</string>
+    <string name="theme_dark">Neon Dark</string>
+    <string name="theme_light">Daylight</string>
+    <string name="reset_progress">Reset all progress</string>
+    <string name="reset_title">Reset all progress?</string>
+    <string name="reset_message">Coins, XP, records, achievements and settings are permanently erased from this device.</string>
+    <string name="reset_confirm">Erase everything</string>
+    <string name="version_fmt">Version %1$s (Premium Edition)</string>
+    <string name="about_title">About &amp; Privacy</string>
+    <string name="about_body">BrainVault is a premium offline puzzle game featuring three brain disciplines: Memory Grid, Quick Math, and Pattern Lock. Train your mental agility anytime, anywhere, completely offline.</string>
+    <string name="privacy_title">Privacy</string>
+    <string name="privacy_body">All progress, personal bests, coins, and records stay strictly on your device. BrainVault requires zero account logins and contains no tracking or analytics. Optional AdMob ads operate with non-intrusive test configs and fail gracefully offline.</string>
+</resources>

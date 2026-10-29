@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bv_background">#FF0A0A0A</color>
+    <color name="bv_background_light">#FFF6F6FA</color>
+    <color name="ic_launcher_background">#FF0A0A0A</color>
+</resources>
